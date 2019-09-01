@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cake"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:text="Happy Birthday to You!"
+        android:textColor="#7F5A58"
+        android:textSize="39sp"
+        android:paddingTop="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textColor="#7F5A58"
+        android:textSize="20sp"
+        android:id="@+id/today"
+        android:text="Today you are more mature and more"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/complete"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textColor="#7F5A58"
+        android:textSize="20sp"
+        android:id="@+id/complete"
+        android:text="complete than your last birthday."
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/reasons"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textColor="#7F5A58"
+        android:textSize="20sp"
+        android:id="@+id/reasons"
+        android:text="you have many reasons to be "
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/success"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textColor="#7F5A58"
+        android:textSize="20sp"
+        android:id="@+id/success"
+        android:text="* successful in life *"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/sure"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textColor="#7F5A58"
+        android:textSize="20sp"
+        android:id="@+id/sure"
+        android:text="and i'm sure you will be !"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="20dp"
+        />
+
+    </RelativeLayout>
