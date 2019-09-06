@@ -1,0 +1,4 @@
+#Thu Sep 05 22:21:40 ICT 2019
+base.0=C\:\\Users\\hp\\AndroidStudioProjects\\GreetingCard\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
